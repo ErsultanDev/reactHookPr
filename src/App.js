@@ -81,7 +81,7 @@ const Slider = (props) => {
   const [slide, setSlide] = useState(0);
   const [autoplay, setAutoplay] = useState(false);
 
-
+  const getSomeImages = useCallback()
 
   function changeSlide(i) {
     setSlide((slide) => slide + i);
